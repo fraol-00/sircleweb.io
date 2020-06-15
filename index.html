@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Sircle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Odibee+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topHeader">
+        <img src="SircleLogo.png" alt="Sircle Logo">
+    </div>
+    <div>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#javascript">JavaScript</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+                <li class="topnav-right"><a href="#signin">Sign In</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776; </a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="section-1-bgimg">
+        <div class="welcomeHeader">
+            <h1 class="sl">Welcome to Sircle Web</h1><hr>
+        </div>
+        <div class="welcomeText">
+            <p class="sl">What is Lorem Ipsum?<br><br>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+    </div>
+    
+    <header class="bottomHeader">
+    <h1>Full Packages</h1><hr>
+    </header>
+<div class="container">
+    <div class="row">
+        <div class="col-6 bodyText">
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+        </div>
+        <div class="col-6 bodyImage">
+            <img src="BodyImg.jpg" alt="Body Image">
+        </div>
+    </div>
+    
+</div>
+    <div class="row">
+        <div class="col-12">
+            <button class="getStarted">Get Started &#10140;</button>
+        </div>
+        </div><hr>
+<div class="commentSection">
+    <div class="row">
+        <div class="col-6">
+        Email:<br><br>
+        <input type="email" class="inputfields" placeholder="email"><br><br>
+        Comment:<br><br>
+        <input type="text" class="inputfields" placeholder="comment"><br><br>
+        <button class="csButton">Send</button>
+        </div>
+    </div>
+</div><hr>
+    <footer class="footsy">
+      <p> <a href="#terms">Terms</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#support">Support</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+          <a href="#fax">Fax</a>   
+      </p> 
+        <p class="copyright">	
+&#169;2020 Sircle, Inc.</p> 
+    </footer>
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            }
+            else {
+                x.className = "topnav";
+            }
+        }
+    
+    </script>
+</body>
+
+</html>
